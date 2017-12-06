@@ -6,13 +6,13 @@ function component() {
   var btn = document.createElement('button')
   
 
-  element.innerHTML = _.join(['hello', 'webpack'], ' ')
+  element.innerHTML = _.join(['h...ello', 'webpack'], ' ')
   
   btn.innerHTML = 'click me and check the console!!'
   btn.onclick =  printMe
 
   element.appendChild(btn)
-  
+
   return element;
 }
 
